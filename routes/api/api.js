@@ -13,14 +13,10 @@ router.get('/', function(req, res, next) {
 });
 
 function performRequest() {
-
-  //Error here... fix
+  //more samples here - https://jsonplaceholder.typicode.com/
   var request = require('sync-request');
-  
-  var response = request("Post", "https://jsonplaceholder.typicode.com/posts", {});
-    
-  response.getBody('utf8');
-
+  var response = request("Get", "https://jsonplaceholder.typicode.com/posts", {});
+  return response.body;
 }
 
 module.exports = router;
