@@ -1,0 +1,16 @@
+https://code.visualstudio.com/tutorials/nodejs-deployment/getting-started
+
+From Command Prompt:
+$ az login
+
+Install Express Generator
+$npm install -g express-generator
+
+
+https://code.visualstudio.com/tutorials/nodejs-deployment/express
+
+
+Scaffold a new application
+$ express myExpressApp --view pug --git
+
+https://code.visualstudio.com/tutorials/nodejs-deployment/create-website
